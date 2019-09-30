@@ -111,7 +111,15 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
+let num=60;
+let result=" ";
+if (num%3 === 0){
+  result="Fizz";
+}
+if (num%5 === 0){
+  result=result + "Buzz";
+}
+console.log(result || num);
 ```
 
 #### BONUS
