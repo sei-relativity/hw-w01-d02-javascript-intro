@@ -118,7 +118,7 @@ let num = 15
     if (num % 5 === 0) {
         result += "Buzz"
     }
-    console.log(result || i)
+    console.log(result || num)
     result = ""
 
 ```
@@ -148,7 +148,7 @@ function fizzBuzz (num){
     if (num % 5 === 0) {
         result += "Buzz"
     }
-    console.log(result || i)
+    console.log(result || num)
     result = ""
 }
 ```
