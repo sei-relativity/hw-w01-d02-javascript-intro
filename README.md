@@ -118,7 +118,7 @@ Write a conditional statement that...
 let num = 30;
 let rest = "";
 if (num%3===0){rest = "Fizz";}
-if (num%5===0){rest = "Buzz";}
+if (num%5===0){rest = rest + " Buzz";}
 console.log(rest || num);
 
 #### BONUS
