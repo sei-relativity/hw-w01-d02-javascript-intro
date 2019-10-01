@@ -8,7 +8,7 @@
     - https://blog.codeanalogies.com/2018/06/18/javascript-booleans-explained-by-going-to-court/ (reading)
 
 
-## Assignment Operator
+## Assignment Operators
 Without running the following code, try to determine:
 
 ```js
