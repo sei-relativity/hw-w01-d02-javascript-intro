@@ -1,5 +1,4 @@
 # Javascript Homework
-
 1.  Variables
     - https://www.youtube.com/watch?v=cXUWYZXru6o (7 min video)
     - https://www.codeanalogies.com/jsconstruction/ (interactive game)
