@@ -125,7 +125,7 @@ let result ="";
     }
     console.log (result||num) //where emtay string is false 
 
-#### BONUS
+#### BONUS##
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
