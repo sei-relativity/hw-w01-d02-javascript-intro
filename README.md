@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is number
 ```
 2.  What is `b`?
 ```
-b is ...
+b is .string..
 ```
 3.  What is `c`?
 ```
-c is ...
+c is booln
 ```
 
 ## Concatenation
@@ -47,12 +47,12 @@ const fourthWord = "cheese";
 Result should be:
 ```js
 "Please squeeze the cheese"
-```
+console.log(firstWorld+''+secondWord+''+thirdWorld+''+fourthWorld+'.'+);
 
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+console.log(firstWorld+''+secondWord+''+thirdWorld+''+fourthWorld+'.'+);
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -65,13 +65,13 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
-```
+const num3 = 15;
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log('num3' = 'num1'+'num2');
 ```
 
 ## Comparisons
@@ -89,14 +89,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) 'false'  
+b)'true'
+c)'false'
+d)'false' 
+e) 'false'
+f) 'false'
+g) 'true'
+h) 'false'
 ```
 
 ## Conditionals
@@ -112,13 +112,22 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
-```
+let num = 30;
+    result="";
+    if (num%3=0){
+        result="Fizz";}
+        if (num%5=0){result="Buzz";}
+        console.log(result || num);
+    }
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
-```
+let i=0;
+while (i <= 100){
+    console.log(i); i+1 ;
+}
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
